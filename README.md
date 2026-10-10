@@ -1,152 +1,63 @@
-\# Retail Sales Data Exploration \& Analysis
+# Retail Sales Data Analysis
 
+## About the Project
 
+This project explores a retail sales dataset using Python. The aim is to understand sales patterns, compare product categories, and identify which sub-categories perform well.
 
-\## Project Overview
+The analysis includes data cleaning, exploratory data analysis (EDA), visualizations, and report generation.
 
+## Dataset
 
+The dataset contains 9,994 retail sales records with information such as:
 
-This project analyzes retail sales data using Python, Pandas, NumPy, and Matplotlib.
+- Order Date
+- Region and State
+- Category and Sub-Category
+- Segment
+- Sales and Profit
+- Quantity
 
+Duplicate records were removed, and the order dates were converted into a suitable date format for analysis.
 
+## Tools and Libraries
 
-The project includes data cleaning, exploratory data analysis, business insights, visualizations, and report generation.
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- OpenPyXL
+- ReportLab
+- Jupyter Notebook
 
+## Analysis Performed
 
+- Loaded and explored the retail sales dataset.
+- Checked for missing values and duplicate records.
+- Prepared the data for analysis.
+- Compared sales and profit across product categories.
+- Examined monthly sales trends.
+- Identified the top-performing product sub-categories.
+- Created charts to present the findings.
 
-\## Dataset
+## Project Outputs
 
+- Cleaned dataset (CSV)
+- Sales dashboard (PNG)
+- Excel report
+- PDF report
+- Data analysis notebook
+- Workflow and architecture diagrams
 
+## Project Structure
 
-The dataset contains retail sales information including:
+- `data/` – Raw and cleaned datasets
+- `notebooks/` – Jupyter Notebook used for analysis
+- `diagrams/` – Project workflow and architecture diagrams
+- `reports/` – Dashboard and generated reports
+- `screenshots/` – Screenshots of the project
+- `src/` – Python source code
+- `requirements.txt` – Required Python libraries
 
+## Conclusion
 
-
-\- Order Date
-
-\- Region
-
-\- State
-
-\- Category
-
-\- Sub-Category
-
-\- Segment
-
-\- Sales
-
-\- Profit
-
-\- Quantity
-
-
-
-\## Data Cleaning
-
-
-
-The dataset was checked for:
-
-
-
-\- Missing values
-
-\- Duplicate records
-
-\- Data types
-
-
-
-Two duplicate records were removed, resulting in 9,992 records.
-
-
-
-\## Analysis Performed
-
-
-
-\- Total Sales
-
-\- Total Profit
-
-\- Total Quantity
-
-\- Profit Margin
-
-\- Sales by Category
-
-\- Profit by Category
-
-\- Monthly Sales Trend
-
-\- Top Sub-Categories by Sales
-
-\- Sales by Region
-
-\- Sales by Segment
-
-\- Sales vs Profit relationship
-
-
-
-\## Visualizations
-
-
-
-The project includes:
-
-
-
-\- Sales by Category
-
-\- Monthly Sales Trend
-
-\- Profit by Category
-
-\- Top 10 Sub-Categories by Sales
-
-\- Sales Distribution
-
-\- Sales vs Profit
-
-
-
-\## Reports
-
-
-
-The project generates:
-
-
-
-\- Cleaned CSV dataset
-
-\- Excel report
-
-\- PDF report
-
-\- Dashboard image
-
-
-
-\## Tools Used
-
-
-
-\- Python
-
-\- Pandas
-
-\- NumPy
-
-\- Matplotlib
-
-\- OpenPyXL
-
-\- ReportLab
-
-\- Jupyter Notebook
-
-\- VS Code
-
+The project uses data analysis and visualization to make retail sales information easier to understand and compare.
